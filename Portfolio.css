@@ -14,9 +14,30 @@ body {
   box-shadow: 2px 2px 2px 2px  #999999;
 }
 
+#nav-right {
+  position:fixed;
+  float:right;
+  top:25px;
+  right:20px;
+}
+
 h1{
-  padding-left:50px;
-  font-family:"Montserrat";
+  padding-top:5px;
+  padding-left:40px;
+  font-family:"Montserrat", sans-serif;
   font-size:40px;
   color:white;
  }
+
+ul li {
+  list-style:none;
+  display:inline-block;
+  padding:10px 20px 10px 20px;
+  font-size:24px;
+  font-weight:bold;
+}
+
+li:hover {
+  background-color:white;
+  cursor:crosshair;
+}
