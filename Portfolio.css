@@ -2,6 +2,7 @@
 
 body {
   margin:0;
+  background-color:#e8effc
 }
 
 #nav{
@@ -18,6 +19,33 @@ body {
   position:fixed;
   top:25px;
   right:20px;
+}
+
+#about{
+  width:75%;
+  margin:auto;
+  height:1000px;
+  background-color:#a4c0f4;
+  border:black solid 1px;
+  border-top:none;
+ }
+
+#portfolio {
+  width:75%;
+  margin:auto;
+  height:1000px;
+  background-color:#78a1ed;
+  border:black solid 1px;
+  border-top:none;
+}
+
+#contact {
+  width:75%;
+  margin:auto;
+  height:1000px;
+  background-color:#bbd0f6;
+  border:black solid 1px;
+  border-top:none;
 }
 
 h1{
@@ -54,7 +82,7 @@ li:hover {
 
 @media (max-width:780px){
   ul li {
-    padding:5px 10px 5px 10px;
+    padding:2px 5px 2px 5px;
   }
 }
 
@@ -70,5 +98,29 @@ li:hover {
   h1 {
    font-size:35px;
     margin-top:25px;
+   }
+}
+
+@media (max-width:1100px){
+  #about {
+   width:100%
+   }
+}
+
+@media (max-width:1100px){
+  #portfolio {
+   width:100%
+   }
+}
+
+@media (max-width:1100px){
+  #contact {
+   width:100%
+   }
+}
+
+@media (max-width:430px){
+  h1 {
+   width:100%
    }
 }
