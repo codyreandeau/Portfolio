@@ -13,6 +13,7 @@ body {
   top:0;
   border-bottom:solid black 1px;
   box-shadow: 2px 2px 2px 2px  #999999;
+  z-index: 10;
 }
 
 #nav-right {
@@ -23,34 +24,49 @@ body {
 }
 
 #about{
+  display: flex;
   width:75%;
   margin:auto;
-  height:1000px;
+  height:600px;
   background-color:#a4c0f4;
   border:black solid 1px;
   border-top:none;
  }
 
 #portfolio {
+  display: flex;
   width:75%;
   margin:auto;
-  height:1000px;
+  height:600px;
   background-color:#78a1ed;
   border:black solid 1px;
   border-top:none;
 }
 
 #contact {
+  display: flex;
   width:75%;
   margin:auto;
-  height:1000px;
+  height:600px;
   background-color:#bbd0f6;
   border:black solid 1px;
   border-top:none;
 }
 
-#aboutme {
+.aboutme{
+  position:relative;
   margin: 0 auto;
+  margin-bottom:100px;
+  width:80%;
+  height:100%;
+ }
+ 
+ .aboutme p{
+  position: absolute;
+  left:25%;
+  right:25%;
+  top: 50%;
+  text-align: center;
  }
 
 h1{
