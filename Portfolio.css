@@ -321,9 +321,9 @@ li:hover {
   }
 }
 
-@media (max-width:400px){
+@media (max-width:380px){
    #portfolio {
-    height:450px;
+    height:500px;
   }
   h2{
     margin-left:-35px;
