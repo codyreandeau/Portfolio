@@ -69,11 +69,11 @@ body {
 }
 
 .band_pic img{
-  border: solid gray 3px;
-  width:450px;
+  border: solid gray 2px;
+  width:435px;
   height:300px;
   float:left;
-  margin:12px;
+  margin:10px;
   margin-top:50px;
 }
 
@@ -130,6 +130,26 @@ li:hover {
   background-color:white;
   cursor:pointer;
 }
+
+@media (min-width: 780px) {
+    #menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width:780px){
+  #nav-right {
+    background-color:#d04949;
+    width:400px;
+    top:100px; 
+    z-index:50;
+    border: solid black 1px;
+    border-top:none;
+   }
+  
+    ul li {
+    padding:2px 5px 2px 5px;
+  }
   
 #menu-icon {
   float:right;
@@ -153,26 +173,6 @@ li:hover {
     text-decoration:none;
   }
 }
-
-@media (min-width: 780px) {
-    #menu-icon {
-        display: none;
-    }
-}
-
-@media (max-width:780px){
-  #nav-right {
-    background-color:#d04949;
-    width:400px;
-    top:100px; 
-    z-index:50;
-    border: solid black 1px;
-    border-top:none;
-   }
-  
-    ul li {
-    padding:2px 5px 2px 5px;
-  }
 
 @media (max-width:430px){
   #nav-right {
@@ -305,24 +305,28 @@ li:hover {
       margin-left:-25px;
    }
   #portfolio {
-    height:800px;
+    height:850px;
   }
 }
 
 @media (max-width:600px){
    #portfolio {
-    height:250vh;
+    height:700px;
   }
 }
 
 @media (max-width:520px){
    #portfolio {
-    height:200vh;
+    height:650px;
   }
 }
 
-@media (max-width:360px){
+@media (max-width:400px){
    #portfolio {
-    height:150vh;
+    height:450px;
+  }
+  h2{
+    margin-left:-35px;
   }
 }
+
