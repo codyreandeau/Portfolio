@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+* {
+  font-family:"Montserrat", sans-serif;
+}
+
 body {
   margin:0;
-  background-color:#e8effc
+  background-color:#e8effc;
 }
 
 #nav{
@@ -34,7 +38,6 @@ body {
   position:fixed;
   top:25px;
   right:20px;
-  font-family:"Montserrat", sans-serif;
 }
 
 #about{
@@ -68,7 +71,7 @@ body {
   display: flex;
   width:75%;
   margin:auto;
-  height:550px;
+  height:500px;
   background-color:#bbd0f6;
   border:black solid 1px;
   border-top:none;
@@ -118,14 +121,12 @@ body {
   right:25%;
   left:-12%;
   text-align: center;
-  font-family:"Montserrat", sans-serif;
   font-size:25px;
  }
 
 h1{
   padding-top:5px;
   padding-left:40px;
-  font-family:"Montserrat", sans-serif;
   font-size:40px;
   color:white;
  }
@@ -151,7 +152,7 @@ li:hover {
 
 @media (min-width: 780px) {
     #menu-icon {
-        display: none;
+        display:none;
     }
 }
 
@@ -163,6 +164,7 @@ li:hover {
     z-index:50;
     border: solid black 1px;
     border-top:none;
+    display:none;
    }
   
     ul li {
@@ -173,7 +175,7 @@ li:hover {
   float:right;
   list-style:none;
   font-size:40px;
-  top:-80px;
+  top:-100px;
   margin:20px;
   padding:0;
   position:relative;
@@ -225,7 +227,7 @@ input {
 textarea {
   display:block;
   width:100%;
-  height:40%;
+  height:35%;
   margin-left:20px;
   background-color:#bbd0f6;
   border: solid #0099cc 1px;
@@ -295,16 +297,34 @@ textarea {
   }
 }
 
-@media (max-width:780px) {
+@media (max-width:1050px) {
+  .me {
+    margin-right:27%
+  }
+}
+
+@media (max-width:900px) {
+  .me {
+    margin-right:25%
+  }
+}
+
+@media (max-width:800px) {
   .me {
     margin-top:350px;
     margin-right:22%;
   }
 }
 
-@media (max-width:564px) {
+@media (max-width:740px) {
+  .me {
+    margin-right:18%;
+  }
+}
+
+@media (max-width:580px) {
   .me{
-    margin-top:420px;
+    margin-top:400px;
     margin-right:10%;
   }
     .contact h2 {
@@ -312,10 +332,10 @@ textarea {
   }
 }
 
-@media (max-width:400px){
+@media (max-width:430px){
 	.me{
-		margin-top:475px;
-		margin-right:0;
+		margin-top:460px;
+		margin-right:8%;
     width: 250px;
     height:250px;
 	}
@@ -391,6 +411,32 @@ textarea {
   }
   .contact h2{
     margin-left:0;
+  }
+}
+
+@media (max-width:760px) {
+  .contact_me_section{
+    width:90%;
+    height:60%
+  }
+  
+  .contact_me_message {
+  width:100%;
+}
+  .contact_me_message p {
+    margin:0;
+  }
+}
+
+@media (max-width:575px) {
+  .contact_me_message p {
+    font-size:22px;
+  }
+}
+
+@media (max-width:450px) {
+  .contact_me_message p {
+    font-size:18px;
   }
 }
 
