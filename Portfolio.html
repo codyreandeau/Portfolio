@@ -3,9 +3,9 @@
 <head>
 	<link type="text/css" rel="stylesheet" href="Portfolio.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" rel="stylesheet" href="Cody.css"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" rel="stylesheet" href="Cody.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="portfolio.js"></script>
 	<title>My Portfolio</title>
 </head>
@@ -18,36 +18,31 @@
   </div>
   <div id="nav-right">
     <ul>
-    <li>About</li>
-    <li>Portfolio</li>
-    <li>Contact</li>
+      <li><a href="#aboutjump">About</a></li>
+      <li><a href="#portfoliojump">Portfolio</a></li>
+      <li><a href="#contactjump">Contact</a></li>
     </ul>
     </div>
 </div>
 <div id="about">
- <div class="aboutme">
+ <div class="aboutme" id="aboutjump">
   <p>Student at SUNY Plattsburgh studying Computer Science. Really Interested in Software Development, Web Development, Wed Design, and Databases.<br/><br/>
     Also a musician, powerlifter, reader, and life-long learner.
    </p>
    <img src="img/myface.jpg" alt="Cody at graduation." class="right me"/>
-  </div>
+</div>
 </div>
 <div id="portfolio">
     <div class="portfolio">
       <h2>Portfolio</h2>
-      <div>
-        <a href="http://musicmorningpeople.com/" target="_blank">
-		<div class="band_pic">
-		<img src="img/PersonalWebsite.png" alt="Morning People Band Website"/></div></a>
-      <a href="http://codyreandeau.com/" target="_blank">
-	  <div class="band_pic">
-	  <img src="img/MorningPeople.png" alt="Cody's personal website"/></div></a>
+      <div id ="portfoliojump">
+        <a href="http://musicmorningpeople.com/" target="_blank"><div class="band_pic"><img  src="img/MorningPeople.png" alt="Morning People Band Website"/></div></a>
+      <a href="http://codyreandeau.com/" target="_blank"><div class="band_pic"><img src="img/PersonalWebsite.png" alt="Cody's personal website"/></div></a>
       </div>
-  </div>
+   </div>
 </div>
-  <!--  -->
 <div id="contact">
-  <div class="contact_container">
+  <div class="contact_container" id="contactjump">
     <div class="title">
       <h2>Contact Me</h2>
     </div>
@@ -64,7 +59,5 @@
       </div>
   </div>
 </div>
-
-
 </body>
 </html>
